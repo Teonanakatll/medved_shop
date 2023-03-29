@@ -1,5 +1,6 @@
 {% load static %}
 
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -8,38 +9,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="{% static 'landing/img/favicon2.ico' %}" type="image/x-icon"/>
   <link rel="stylesheet" href="{% static 'landing/css/bootstrap.min.css' %}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{% static 'landing/css/style.css' %}">
 
   <title>Medved-Shop</title>
+
 </head>
 <body>
-<div class="container">
-  <div class="row">
-    <div class="col-4 offset-4">
-      <h1 class="title">Наш магазин скоро откроется</h1>
-      <h1 class="title">Оставьте ваш имейл в форме ниже</h1>
-      <div>
-<form method="post">
-  {% csrf_token %}
 
-  <div class="form-error">{{ form.non_field_errors }}</div>
-
-  {% for f in form %}
-  <p><label class="form-label" for="{{ f.id_for_label }}">{{ f.label }}</label>{{ f }}</p>
-  <div class="form-error">{{ f.errors }}</div>
-  {% endfor %}
-
-  <button class="submit">Отправить</button>
-
-</form>
-
+<div class="general-container">
+    <div class="container top-container">
+      <div class="row">
+        <div class="col-12 pr-2">
+          <h1 class="title">Наш магазин скоро откроется</h1>
+          <h1 class="title">Оставьте ваш имейл в форме ниже</h1>
+        </div>
       </div>
 
+
+        <form action="" method="post">{% csrf_token %}
+          <div class="row text-center g-3">
+            <span>{{ error }}</span>
+            <label class="col-sm-1 col-form-label col-form-label-sm">Имя:</label>
+
+            <div class="col-sm-4">{{ form.name }}</div>
+              <label class="col-sm-1 col-form-label col-form-label-sm">Email:</label>
+
+            <div class="col-sm-4">{{ form.email }}</div>
+            <div class="col-sm-2"><button type="submit" class="btn btn-primary btn-orange">Отправить</button></div>
+          </div>
+        </form>
+
+
     </div>
-  </div>
 </div>
 
-<script src="{% static 'landing/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'landing/js/bootstrap.bundle.min.js' %}"></script>
 </body>
 <footer>
 
