@@ -1,11 +1,11 @@
 from django.contrib import admin
 from .models import Status, Order, ProductInOrder
 
-# Класс для вставки в админку модели связанных с ней вторичных моделей
+# Cоздать запись в БД, на которую ссылается ForeignKey во всплывающем окне
 class ProductInOrderInline(admin.TabularInline):
     # Связанная модель
     model = ProductInOrder
-    # Количество дополнительных ссылок для загрузки картинок под постом
+    # Количество дополнительных ссылок для добавления связанных вторичных моделей
     extra = 0
 
 class StatusAdmin(admin.ModelAdmin):
@@ -17,7 +17,7 @@ admin.site.register(Status, StatusAdmin)
 class OrderAdmin(admin.ModelAdmin):
     list_display = [field.name for field in Order._meta.fields]
     list_display_links = ('customer_name',)
-    # Отображение связанных моделей
+    # Отображение и добавление связанных вторичных моделей
     inlines = (ProductInOrderInline,)
     list_filter = ('status', 'created')
 
