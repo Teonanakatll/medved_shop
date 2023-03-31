@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from .forms import SubscriberForm
+from products.models import Product, ProductImage
+
 
 def landing(request):
     name = "Syava"
@@ -18,3 +20,7 @@ def landing(request):
     else:
         error = "Ошибка заполнения формы"
     return render(request, 'landing/landing.html', locals())
+
+def home(request):
+    products_images = ProductImage.objects.filter(is_activ=True, is_main=True)
+    return render(request, 'landing/home.html', locals())

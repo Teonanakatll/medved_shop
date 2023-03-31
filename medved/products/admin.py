@@ -20,5 +20,6 @@ admin.site.register(Product, ProductAdmin)
 class ProductImageAdmin(admin.ModelAdmin):
     list_display = [field.name for field in ProductImage._meta.fields]
     list_filter = ('is_activ', 'created')
+    list_editable = ('is_main',)
 
 admin.site.register(ProductImage, ProductImageAdmin)
