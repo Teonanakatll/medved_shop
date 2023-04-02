@@ -22,21 +22,21 @@
 </head>
 <body>
 
-<div class="wrapper">
+  <div class="wrapper">
+    <div class="wrapper-content">
 
-  {% include 'landing/navbar.html' %}
+      {% include 'landing/navbar.html' %}
 
 
-  {% block content %}
+      {% block content %}
 
-  {% endblock content %}
+      {% endblock content %}
 
-  {% include 'landing/footer.html' %}
+    </div>
+  </div>
+   {% include 'landing/footer.html' %}
 
-</div>
+
 
   <script src="{% static 'landing/js/bootstrap.bundle.min.js' %}"></script>
 </body>
-<footer>
-
-</footer>

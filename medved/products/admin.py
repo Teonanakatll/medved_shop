@@ -1,5 +1,11 @@
 from django.contrib import admin
-from .models import Product, ProductImage
+from .models import Product, ProductImage, ProductCategory
+
+
+class ProductCategoryAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in ProductCategory._meta.fields]
+
+admin.site.register(ProductCategory, ProductCategoryAdmin)
 
 # Cоздать запись в БД, на которую ссылается ForeignKey во всплывающем окне
 class ProductImageInline(admin.TabularInline):
@@ -9,11 +15,13 @@ class ProductImageInline(admin.TabularInline):
     extra = 0
 
 class ProductAdmin(admin.ModelAdmin):
-    list_display = [field.name for field in Product._meta.fields]
+    list_display = ('id', 'name', 'price', 'discount', 'category')
+    # exclude = ('description',)
     list_display_links = ('id', 'name')
     # Отображение и добавление связанных вторичных моделей
     inlines = (ProductImageInline,)
     list_filter = ('is_activ', 'created')
+    list_editable = ('category', 'discount')
 
 admin.site.register(Product, ProductAdmin)
 

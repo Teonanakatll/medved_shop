@@ -22,5 +22,8 @@ def landing(request):
     return render(request, 'landing/landing.html', locals())
 
 def home(request):
-    products_images = ProductImage.objects.filter(is_activ=True, is_main=True)
+    products_images = ProductImage.objects.filter(is_activ=True, is_main=True, product__is_activ=True)
+    # Обращение в queryset к связанным полям
+    products_images_phones = products_images.filter(product__category_id=1)
+    products_images_laptops = products_images.filter(product__category_id=2)
     return render(request, 'landing/home.html', locals())

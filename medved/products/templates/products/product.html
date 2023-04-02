@@ -1,0 +1,57 @@
+{% extends 'landing/base.html' %}
+
+{% block content %}
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <!-- .._set.all выбирает все изабражения связанные с экземпляром модели
+              или исрользовать во вьюхе ..set.filter(..)-->
+        {% for image_item in product.productimage_set.all %}
+          <img src="{{ image_item.image.url }}" alt="" class="img-item mt-4 img-fluid">
+        {% endfor %}
+      </div>
+      <div class="col-lg-6 pt-3 pl-5">
+
+        <h1 class="text-center">
+          {{ product.name }}
+        </h1>
+        <div class="">
+          <p>Price: {{ product.price }}</p>
+        </div>
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="one-tab" data-bs-toggle="tab" data-bs-target="#one" type="button" role="tab" aria-controls="one" aria-selected="true">
+              Описание
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="two-tab" data-bs-toggle="tab" data-bs-target="#two" type="button" role="tab" aria-controls="two" aria-selected="false">
+              <h5>Доставка</h5>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="three-tab" data-bs-toggle="tab" data-bs-target="#three" type="button" role="tab" aria-controls="three" aria-selected="false">
+              Контакты
+            </button>
+          </li>
+        </ul>
+
+        <div class="tab-content pt-3" id="myTabContent">
+          <div class="tab-pane fade show active" id="one" role="tabpanel" aria-labelledby="one-tab">
+            {{ product.description }}
+          </div>
+          <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="two-tab">
+            <h5>Описание условий доставки</h5>
+          </div>
+          <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
+            <h5>Наши контакты</h5>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

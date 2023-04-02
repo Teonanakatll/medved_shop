@@ -5,16 +5,32 @@ html, body {
     font-family: 'Roboto', sans-serif;
     background-color: #edeef0;
 }
+.wrapper {
+    min-height: 100%;
+}
+.wrapper-content {
+    overflow: auto;
+    padding-bottom: 180px; /* must be same height as the footer */
+}
+
+.footer {
+    background-color: white;
+    position: relative;
+    margin-top: -180px; /* negative value of footer height */
+    clear: both;
+    height: 180px;
+}
 .img-home {
     display: flex;
     justify-content: center;
+    background-size: contain;
 }
 .product-item {
     height: 650px;
     background-color: grey;
     border: 3px solid lightgrey;
     position: relative;
-    padding: 5px;
+    padding: 10px 0 10px 0;
     text-align: center;
 }
 .add-to-card-btn {
@@ -30,4 +46,22 @@ html, body {
 .img-product {
     padding: 10px;
     height: 200px;
+}
+.discount-container {
+    position: absolute;
+    top: 20%;
+    background: #55e073;
+    width: 30%;
+    color: white;
+    font-weight: 700;
+    padding: 1px;
+}
+.section-delivery {
+    height: 300px;
+    background-color: darkseagreen;
+    text-align: center;
+    color: white;
+}
+.img-item {
+
 }
