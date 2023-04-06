@@ -62,6 +62,24 @@ html, body {
     text-align: center;
     color: white;
 }
-.img-item {
+.navbar-top {
+    height: 40px;
+    background-color: green;
 
+}
+.navbar-main {
+    background-color: darkseagreen;
+    color: black;
+}
+.basket-container {
+    position: relative;
+    width: 600px;
+}
+.basket-items {
+    position: absolute;
+    top: 78px;
+    width: 100%;
+    background-color: #55e093;
+    z-index: 10;
+}
 }

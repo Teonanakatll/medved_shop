@@ -1,5 +1,8 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+<nav class="navbar navbar-top">
+
+</nav>
+<nav class="navbar navbar-main navbar-expand-lg">
+  <div class="container-fluid bg-green text-white">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,13 +28,28 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
       </ul>
       <form class="d-flex">
         <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+
     </div>
+    <ul class="nav justify-content-right">
+        <li class="nav-item navbar-nav">
+          <div class="basket-container">
+           <a class="nav-link active" aria-current="page" href="#">Корзина</a>
+            <div class="basket-items visually-hidden">
+              <ul class="">
+                <li>sgs</li>
+                <li>wewe</li>
+              </ul>
+            </div>
+          </div>
+
+        </li>
+      </ul>
   </div>
 </nav>

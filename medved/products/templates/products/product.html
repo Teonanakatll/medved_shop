@@ -11,8 +11,8 @@
           <img src="{{ image_item.image.url }}" alt="" class="img-item mt-4 img-fluid">
         {% endfor %}
       </div>
-      <div class="col-lg-6 pt-3 pl-5">
 
+      <div class="col-lg-6 pt-3 pl-5">
         <h1 class="text-center">
           {{ product.name }}
         </h1>
@@ -48,6 +48,24 @@
           <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="three-tab">
             <h5>Наши контакты</h5>
           </div>
+        </div>
+
+        <div>
+          <form id="form_buying_product" class="form-buying">
+            <div class="input-group mb-3">
+              <input type="number" class="form-control" name="num" id="num" placeholder="Количество" aria-label="Количество" aria-describedby="button-submit">
+              <!-- Создаём data-атрибуты к кнопке, для использования в jQuery -->
+              <button class="btn btn-success btn-bye" type="submit" id="button-submit"
+                      data-product_id="{{ product.id }}"
+                      data-product_name="{{ product.name }}"
+                      data-product_price="{{ product.price }}"
+                      data-fuck="fuck"
+              >
+                Купить
+              </button>
+            </div>
+          </form>
+
         </div>
 
       </div>
