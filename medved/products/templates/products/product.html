@@ -51,7 +51,8 @@
         </div>
 
         <div>
-          <form id="form_buying_product" class="form-buying">
+          <!-- Атрибут action указывает куда будут сохраняться данные формы, адрес url (имя path) -->
+          <form id="form_buying_product" class="form-buying" action="{% url 'basket_adding' %}">{% csrf_token %}
             <div class="input-group mb-3">
               <input type="number" class="form-control" name="num" id="num" placeholder="Количество" aria-label="Количество" aria-describedby="button-submit">
               <!-- Создаём data-атрибуты к кнопке, для использования в jQuery -->

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Status, Order, ProductInOrder
+from .models import Status, Order, ProductInOrder, ProductInBasket
 
 # Cоздать запись в БД, на которую ссылается ForeignKey во всплывающем окне
 class ProductInOrderInline(admin.TabularInline):
@@ -28,3 +28,11 @@ class ProductInOrderAdmin(admin.ModelAdmin):
     list_filter = ('is_activ', 'created')
 
 admin.site.register(ProductInOrder, ProductInOrderAdmin)
+
+class ProductInBasketAdmin(admin.ModelAdmin):
+    list_display = [field.name for field in ProductInBasket._meta.fields]
+
+    class Meta:
+        model = ProductInBasket
+
+admin.site.register(ProductInBasket, ProductInBasketAdmin)

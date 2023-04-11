@@ -27,6 +27,40 @@ $(document).ready(function(){
         console.log(product_id);
         console.log(product_name);
         console.log(product_price);
+
+            // В переменной дата будут данные которые мы отправляем
+            var data = {};
+            data.product_id = product_id;
+            data.nmb = nmb;
+
+            // В переменной csrf_token добавляем токен который нужен джанго чтобы делать post-запросы
+            var csrf_token = $('#form_buying_product [name="csrfmiddlewaretoken"]').val();
+            data["csrfmiddlewaretoken"] = csrf_token;
+            // Адресс на который необходимо отправлять post-запрос
+            // Считываем url с атрибута action формы
+            var url = form.attr("action");
+
+            console.log(data)
+
+            $.ajax({
+                url: url,
+                type: 'POST',
+                data: data,  // Переменная с данными
+                cache: true,
+                success: function (data) {  // При успешном ответе сервера вызывается функция
+                    console.log("OK");
+                    // Выводим в консоль данные полученные из orders/views.py
+                    console.log(data.products_total_nmb);
+                    // Если есть значение total (количество позиций товара в корзине за сессию) то вписываем его рядом с корзиной
+                    if (data.products_total_nmb){
+                        $('#basket_total_nmb').text("("+data.products_total_nmb+")");
+                    }
+                },
+                error: function(){
+                    console.log("error")
+                }
+            })
+
         // Обращаемся к елементу на уровень ниже (ul)
         // И с помощю функции append() добавляем в него элемент
         $('.basket-items ul').append('<li>'+product_name+', '+ nmb + 'шт. ' + 'по ' + product_price + 'р  ' +
