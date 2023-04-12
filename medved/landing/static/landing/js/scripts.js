@@ -54,19 +54,26 @@ $(document).ready(function(){
                     // Если есть значение total (количество позиций товара в корзине за сессию) то вписываем его рядом с корзиной
                     if (data.products_total_nmb){
                         $('#basket_total_nmb').text("("+data.products_total_nmb+")");
+                        // Выводим данные из JsonResponse
+                        console.log(data.products);
+                        // Очищаем элемент ul с помощю метода .html("")
+                        $('.basket-items ul').html("");
+                        // Через цикл выводим записи товаров в корзину, k - индекс, v - сам обьект
+                        $.each(data.products, function(k, v){
+                            // Обращаемся к елементу на уровень ниже (ul)
+                            // И с помощю функции append() добавляем в него элемент
+                            $('.basket-items ul').append('<li>'+v.name+', '+ v.nmb + 'шт. ' + 'по ' + v.price_per_item + 'р  ' +
+                            // Чтоб появился курсор добавляем href=""
+                            // '<a class="delete-item" href="">x</a>'+
+                            '</li>');
+
+                        })
                     }
                 },
                 error: function(){
                     console.log("error")
                 }
             })
-
-        // Обращаемся к елементу на уровень ниже (ul)
-        // И с помощю функции append() добавляем в него элемент
-        $('.basket-items ul').append('<li>'+product_name+', '+ nmb + 'шт. ' + 'по ' + product_price + 'р  ' +
-        // Чтоб появился курсор добавляем href=""
-        '<a class="delete-item" href="">   x</a>'+
-        '</li>');
 
         // получить значение атрибута data у первого элемента текущего набора
         //$('селектор').attr('data-*');
