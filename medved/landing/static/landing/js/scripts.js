@@ -136,5 +136,41 @@ $(document).ready(function(){
         basketUpdating(product_id, nmb, is_delete=true);
         // Выбираем этот же елемент через (this), и выбираем ближайший к нему элемент li
         $(this).closest('li').remove();
-    })
+    });
+
+    // Функция расчитывает общую стоимость товаров в корзине
+    function calculatingBasketAmount(){
+        // Проверяем вызывается ли функция
+        console.log("calculatingBasketAmount");
+        // Переменная для расчёта и вывода суммы в id=total_order_amount
+        var total_order_amount = 0;
+        // Проходим циклом по каждому значению (span class=...) в списке товаров на checkout.html
+        $('.total-product-in-basket-amount').each(function(){
+            // Переводим str в int с помощю функции parseInt(), или в float через parseFloat() и .toFixed(2)
+            total_order_amount += parseFloat($(this).text());
+        });
+        // Вписываем результат в span id="total_order_amount"
+        $('#total-order-amount').text(total_order_amount.toFixed(2));
+    };
+
+    // Функция отслеживает изменения в инпуте (span class="product-in-basket-nmb")
+    $(document).on('change', ".product-in-basket-nmb", function(){
+        console.log("product-in-basket-nmb");
+        // Считываем текущее количество с инпута
+        var current_nmb = $(this).val();
+        // Считываем значение с ближайшей ячейки tr к нашей (в которой меняем кол-во)
+        var current_tr = $(this).closest("tr");
+        // Считываем стоимость товара cо span class="product-price", переводим в float
+        var current_price = parseFloat(current_tr.find('.product-price').text()).toFixed(2);
+        // Находим общую стоимость позиции товара, переводим в float
+        var total_amount = parseFloat(current_nmb*current_price).toFixed(2);
+        // Находим текущий span class="total_product_in_basket_amount" и вписываем значение
+        console.log(total_amount);
+        current_tr.find('.total-product-in-basket-amount').text(total_amount);
+        // Вызываем функцию calculatingBasketAmount() для подсчёта общего кол-ва
+        calculatingBasketAmount();
+    });
+
+    calculatingBasketAmount();
+
 });
