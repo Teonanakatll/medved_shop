@@ -1,6 +1,8 @@
 from django.http import JsonResponse
 from django.shortcuts import render
-from .models import ProductInBasket
+from .models import ProductInBasket, ProductInOrder, Order
+from .forms import CheckoutContactForm
+from django.contrib.auth.models import User
 
 
 def basket_adding(request):
@@ -24,8 +26,7 @@ def basket_adding(request):
         # Возвращает обьект (ищет по совпадающим полям), или создаёт со всеми указанными полями
         # Метод возвращает добавленный обьект и буллевое значение (created) True если дабавление прошло успешно
         # Если обьектов больше одного вернет MultipleObjectsReturned
-        new_product, created = ProductInBasket.objects.get_or_create(session_key=session_key, is_active=True,
-                                                                     product_id=product_id, defaults={"nmb": nmb})  # defaults={поля по умолчанию}
+        new_product, created = ProductInBasket.objects.get_or_create(session_key=session_key, is_active=True, product_id=product_id, defaults={"nmb": nmb})  # defaults={поля по умолчанию}
 
         # Если поле уже существует обновляем количество
         if not created:
@@ -55,5 +56,46 @@ def basket_adding(request):
 
 def checkout(request):
     session_key = request.session.session_key
-    products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True)
+    # Выбираем товары в корзине по ключу сессии исключая продукты которые уже есть в заказе.
+    products_in_basket = ProductInBasket.objects.filter(session_key=session_key, is_active=True, order__isnull=True)
+    form = CheckoutContactForm(request.POST or None)
+    if request.POST:
+        print(request.POST)
+        # Если форма прошла валидацию создаём юзера
+        if form.is_valid():
+            print("yes")
+            data = request.POST
+            # Если поле пустое чтоб не было исключения пишем через get()
+            name = data.get("name", "one")  # "one" - любое значение по умолчанию
+            phone = data["phone"]
+            # Выбираем или создаём юзера, устанавливаем телефон как имя юзера
+            user, created = User.objects.get_or_create(username=phone, defaults={"first_name": name})
+
+            # Создаём заказ с данными юзера, устанавливаем статус
+            order = Order.objects.create(user=user, customer_name=name, customer_phone=phone, status_id=1)
+            # Считываем товары из POST запроса
+            for name, value in data.items():
+                # Если имя элемента словаря начинается с ("...")
+                if name.startswith("product_in_basket_"):
+                    # Берем последний элемент списка
+                    product_in_basket_id = name.split("product_in_basket_")[1]
+                    # Считываем обьект по id
+                    product_in_basket = ProductInBasket.objects.get(id=product_in_basket_id)
+                    # Возникла ошибка can't multiply sequence by non-int of type 'decimal.Decimal'
+                    # проверяем значение поля value
+                    print(type(value))
+                    # Устанавливаем количество товара со страницы checkout.html (при изменении)
+                    product_in_basket.nmb = value
+                    # Указываем заказ к которому относится товар
+                    product_in_basket.order = order
+                    product_in_basket.save(force_update=True)
+
+                    # Создаём продукт в заказе
+                    ProductInOrder.objects.create(product=product_in_basket.product, nmb=product_in_basket.nmb,
+                                                  price_per_item=product_in_basket.price_per_item,
+                                                  total_price=product_in_basket.total_price,
+                                                  order=order)
+
+        else:
+            print("no")
     return render(request, 'orders/checkout.html', locals())

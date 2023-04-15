@@ -4,62 +4,92 @@
 {% block content %}
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 col-lg-offset-1">
-        <h3 class="text-center">Товары в корзине</h3>
-        <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} руб.</h5>
-          {{ request.session.basket.products }}
+      {% if products_in_basket %}
+        <div class="col-lg-10 col-lg-offset-1">
+          <h3 class="text-center">Товары в корзине</h3>
+          <h5 class="text-center">Общая стоимость: {{ request.session.basket.total_amount }} руб.</h5>
+            {{ request.session.basket.products }}
 
-        <form>
-          <!--  Создаём таблицу  -->
-          <table class="table text-center">
-            <thead>
-              <tr>
-                <th>Название товара</th>
-                <th>Количество</th>
-                <th>Цена за единицу</th>
-                <th>Общая стоимость</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% for product_in_basket in products_in_basket %}
+          <form class="form-horizontal" method="post">{% csrf_token %}
+            <span class="form-errors">{{ form.non_field_errors }}</span>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label>Имя: </label>
+                  <!--  name - устанавливаем как название поля формы  -->
+                  <!--  Значением поля устанавливаем данные полученные из post-запросса  -->
+                  <input type="text" name="{{ form.name.html_name }}" class="form-control"
+                    value="{{ request.POST.name }}"
+                  >
+                  <span class="form-errors">{{ form.name.errors }}</span>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label>Телефон: </label>
+                  <input type="text" name="{{ form.phone.html_name }}" class="form-control"
+                    value="{{ request.POST.phone }}"
+                  >
+                  <span class="form-errors">{{ form.phone.errors }}</span>
+                </div>
+              </div>
+            </div>
+            <!--  Создаём таблицу  -->
+            <table class="table text-center">
+              <thead>
                 <tr>
-                  <td>
-                    {{ product_in_basket.product.name }}
-                  </td>
-                  <td>
-                    <!--  Стандартный элемент формы: input, тип-числовой  -->
-                    <input value="{{ product_in_basket.nmb }}" type="number"
-                            class="product-in-basket-nmb">
-                  </td>
-                  <td>
-                    <span class="product-price">
-                      {{ product_in_basket.price_per_item }}
-                    </span>
-                  </td>
-                  <td>
-                    <!--  id присваивается только одному элементу если нужно считывать значения
-                            у нескольких элементов нужно присваивать класс  -->
-                    <span class="total-product-in-basket-amount">
-                      {{ product_in_basket.total_price }}
-                    </span>
-                  </td>
+                  <th>Название товара</th>
+                  <th>Количество</th>
+                  <th>Цена за единицу</th>
+                  <th>Общая стоимость</th>
                 </tr>
-              {% endfor %}
-            </tbody>
-          </table>
+              </thead>
+              <tbody>
+                {% for product_in_basket in products_in_basket %}
+                  <tr>
+                    <td>
+                      {{ product_in_basket.product.name }}
+                    </td>
+                    <td>
+                      <!--  Стандартный элемент формы: input, тип-числовой
+                       Атрибут name определяет имя HTML формы. Атрибут name используется для обращения к форме
+                        после отправки данных на сервер, либо для обращения к элементу при помощи JavaScript.
+                         В XHTML атрибут name считается устаревшим. Вместо него следует использовать общий атрибут id.-->
+                      <input value="{{ product_in_basket.nmb }}" type="number"
+                             class="product-in-basket-nmb" name="product_in_basket_{{ product_in_basket.id }}">
+                    </td>
+                    <td>
+                      <span class="product-price">
+                        {{ product_in_basket.price_per_item }}
+                      </span>
+                    </td>
+                    <td>
+                      <!--  id присваивается только одному элементу если нужно считывать значения
+                              у нескольких элементов нужно присваивать класс  -->
+                      <span class="total-product-in-basket-amount">
+                        {{ product_in_basket.total_price }}
+                      </span>
+                    </td>
+                  </tr>
+                {% endfor %}
 
-          <div class="d-flex justify-content-end">
-            <!--  id для вывода расчитанной суммы из jquery  -->
-            <b>Сумма заказа:</b><span id="total-order-amount"></span>
-          </div>
+              </tbody>
+            </table>
 
-          <div class="d-flex justify-content-end mt-3">
-            <button type="submit" class="btn btn-primary btn-lg">Заказать</button>
-          </div>
+            <div class="d-flex justify-content-end">
+              <!--  id для вывода расчитанной суммы из jquery  -->
+              <b>Сумма заказа:</b><span id="total-order-amount"></span>
+            </div>
 
-        </form>
-      </div>
+            <div class="d-flex justify-content-end mt-3">
+              <button type="submit" class="btn btn-primary btn-lg">Заказать</button>
+            </div>
 
+          </form>
+        </div>
+      {% else %}
+                <h2 class="text-center mt-5">В вашей корзине нет товаров.</h2>
+      {% endif %}
     </div>
   </div>
 {% endblock content %}

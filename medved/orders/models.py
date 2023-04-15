@@ -2,6 +2,7 @@ from django.db import models
 from django.db.models.signals import post_save
 
 from products.models import Product
+from django.contrib.auth.models import User
 
 
 class Status(models.Model):
@@ -17,7 +18,9 @@ class Status(models.Model):
         verbose_name = 'Статус заказа'
         verbose_name_plural = 'Статусы заказа'
 
+
 class Order(models.Model):
+    user = models.ForeignKey(User, on_delete=models.DO_NOTHING, blank=True, null=True, default=None)
     # null=True устанавливает значение поля в NULL т.е. нет данных, относится к значению столбца БД
     # blank=True определяет будет ли поле обязательным в формах
     # blank=True null=True означает поле является необязательным при любых обстоятельствах
@@ -36,6 +39,7 @@ class Order(models.Model):
     def __str__(self):
         return f"Заказ {self.id, self.status.name}"
 
+    # noinspection PyMissingOrEmptyDocstring
     class Meta:
         verbose_name = 'Заказ'
         verbose_name_plural = 'Заказы'
@@ -67,7 +71,8 @@ class ProductInOrder(models.Model):
         # Переменные сохранятся в модель только после отрабатывания всей фгнкции полностью,
         # поэтому в дальнейших расчетах с данными бд до сохранения модели, не будет учитываться
         # для корректных расчётов необходимо воспользоваться функцией post-save()
-        self.total_price = self.nmb * self.price_per_item
+        print(type(self.nmb))
+        self.total_price = int(self.nmb) * self.price_per_item
 
         # Присваиваем переменной order ссылку на связанный первичный класс модели
         # order = self.order
@@ -95,10 +100,10 @@ def product_in_order_post_save(sender, instance, created, **kwargs):
     for item in all_products_in_order:
         order_total_price += item.total_price
 
-        # Присваиваем полю total_price связанной первичной модели результат слажения
-        instance.order.total_price = order_total_price
-        # При сохранении обновить текущую запись
-        instance.order.save(force_update=True)
+    # Присваиваем полю total_price связанной первичной модели результат сложения
+    instance.order.total_price = order_total_price
+    # При сохранении обновить текущую запись
+    instance.order.save(force_update=True)
 
 # post_save слушает сигнал класса ProductInOrder присоединяет функцию product_in_order_post_save
 # и сохраняет изменения в св. пр. класс order
