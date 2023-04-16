@@ -25,3 +25,10 @@ unset env
 
 при копировании дб решает ошибку
 python -Xutf8 manage.py dumpdata --indent=3 > initial_data.json
+
+STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATICFILES_DIRS = []
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
