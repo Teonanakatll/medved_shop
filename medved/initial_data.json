@@ -1,0 +1,4202 @@
+[
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2023-03-30T12:21:21.399Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"1\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"2\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2023-03-30T12:22:46.456Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Статус Новый",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2023-03-30T12:23:00.949Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Статус Отмена",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2023-03-30T12:23:19.909Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Статус Выполнен",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2023-03-30T12:23:33.517Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Заказ (1, 'Выполнен')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"17.3\\\" \\u041d\\u043e\\u0443\\u0442\\u0431\\u0443\\u043a ARDOR GAMING NEO G17-I5ND203\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2023-03-30T18:20:25.766Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2023-03-30T18:20:43.008Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2023-03-30T18:23:26.387Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2023-03-30T18:29:22.103Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Заказ (2, 'Новый')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"17.3\\\" \\u041d\\u043e\\u0443\\u0442\\u0431\\u0443\\u043a ARDOR GAMING NEO G17-I5ND203\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2023-03-30T19:36:38.103Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Заказ (3, 'Новый')",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"17.3\\\" \\u041d\\u043e\\u0443\\u0442\\u0431\\u0443\\u043a ARDOR GAMING NEO G17-I5ND203\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2023-03-30T19:37:55.515Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Заказ (3, 'Новый')",
+      "action_flag": 2,
+      "change_message": "[{\"added\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"17.3\\\" \\u041d\\u043e\\u0443\\u0442\\u0431\\u0443\\u043a MSI Katana GF76 12UC-265XRU\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2023-03-30T19:38:47.380Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Заказ (3, 'Новый')",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0422\\u043e\\u0432\\u0430\\u0440 \\u0432 \\u0437\\u0430\\u043a\\u0430\\u0437\\u0435\", \"object\": \"17.3\\\" \\u041d\\u043e\\u0443\\u0442\\u0431\\u0443\\u043a ARDOR GAMING NEO G17-I5ND203\", \"fields\": [\"Nmb\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2023-03-31T13:12:41.780Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "80000 16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"9\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2023-03-31T13:18:45.212Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "120000 16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"10\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"11\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"12\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.456Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "12",
+      "object_repr": "12",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.464Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "11",
+      "object_repr": "11",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.472Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "9",
+      "object_repr": "9",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.479Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "8",
+      "object_repr": "8",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.487Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "6",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.493Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.501Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2023-03-31T17:49:23.507Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2023-04-01T15:26:48.214Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Телефоны",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2023-04-01T15:27:01.159Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Ноутбуки",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2023-04-01T15:44:56.400Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "22000 6.67\" Смартфон Xiaomi Redmi Note 10 Pro 128 ГБ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"13\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"14\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"15\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2023-04-01T15:47:53.301Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "25000 6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"16\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"17\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"18\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2023-04-01T15:48:48.915Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "22000.00 6.67\" Смартфон Xiaomi Redmi Note 10 Pro 128 ГБ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2023-04-01T15:52:16.352Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "22790 6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"19\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"20\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"21\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2023-04-01T15:53:29.067Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "22790.00 6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2023-04-01T15:57:49.833Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "80900 6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"22\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"23\"}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"24\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2023-04-01T15:58:06.212Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "8",
+      "object_repr": "80900.00 6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"22\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2023-04-01T15:58:14.908Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "7",
+      "object_repr": "22790.00 6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"19\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2023-04-01T15:58:22.907Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "6",
+      "object_repr": "25000.00 6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"16\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2023-04-01T15:58:30.826Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "5",
+      "object_repr": "22000.00 6.67\" Смартфон Xiaomi Redmi Note 10 Pro 128 ГБ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"13\", \"fields\": [\"Is main\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2023-04-01T16:20:18.780Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "120000.00 16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2023-04-01T16:20:18.787Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "80000.00 16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2023-04-01T16:20:18.794Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "73000.00 17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2023-04-01T16:20:18.801Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "71000.00 17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2023-04-01T16:44:25.713Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "4",
+      "object_repr": "120000.00 16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2023-04-01T16:45:23.296Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "80000.00 16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2023-04-01T16:45:23.306Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "73000.00 17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2023-04-01T16:45:23.313Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "71000.00 17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Discount\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.196Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "12",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.203Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "11",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.208Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "10",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.212Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "9",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.217Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "8",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.220Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "7",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.222Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "6",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.225Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.228Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.232Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 53,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.235Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 54,
+   "fields": {
+      "action_time": "2023-04-12T17:26:40.238Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 55,
+   "fields": {
+      "action_time": "2023-04-12T18:22:07.609Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "15",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 56,
+   "fields": {
+      "action_time": "2023-04-12T18:22:07.615Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "14",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 57,
+   "fields": {
+      "action_time": "2023-04-12T18:22:07.621Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "13",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 58,
+   "fields": {
+      "action_time": "2023-04-12T18:59:06.747Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "16",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 59,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.899Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "18",
+      "object_repr": "Заказ (18, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 60,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.907Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "17",
+      "object_repr": "Заказ (17, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 61,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.912Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "16",
+      "object_repr": "Заказ (16, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 62,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.914Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "15",
+      "object_repr": "Заказ (15, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 63,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.919Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "14",
+      "object_repr": "Заказ (14, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 64,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.922Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "13",
+      "object_repr": "Заказ (13, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 65,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.926Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "12",
+      "object_repr": "Заказ (12, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.929Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "11",
+      "object_repr": "Заказ (11, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.931Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "10",
+      "object_repr": "Заказ (10, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.935Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Заказ (9, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.938Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "Заказ (8, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.941Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Заказ (7, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.944Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Заказ (6, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.947Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Заказ (5, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.950Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Заказ (4, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.952Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Заказ (3, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.955Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Заказ (2, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2023-04-14T11:25:34.959Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Заказ (1, 'Выполнен')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.853Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "15",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.858Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "14",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 79,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.863Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "13",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 80,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.868Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "12",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 81,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.873Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "11",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 82,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.875Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 83,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.878Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 84,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.881Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 85,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.883Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 86,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.887Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 87,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.890Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 88,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.893Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 89,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.896Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 90,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.899Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 91,
+   "fields": {
+      "action_time": "2023-04-14T11:25:48.901Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 92,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.044Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "28",
+      "object_repr": "6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 93,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.049Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "27",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 94,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.053Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "26",
+      "object_repr": "6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 95,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.057Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "25",
+      "object_repr": "6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 96,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.060Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "24",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 97,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.063Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "23",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 98,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.067Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "22",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 99,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.072Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "21",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 100,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.075Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "20",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 101,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.078Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "19",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 102,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.082Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "18",
+      "object_repr": "6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 103,
+   "fields": {
+      "action_time": "2023-04-14T11:25:57.086Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "17",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 104,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.205Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "36",
+      "object_repr": "Заказ (36, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 105,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.210Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "35",
+      "object_repr": "Заказ (35, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 106,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.213Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "34",
+      "object_repr": "Заказ (34, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 107,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.217Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "33",
+      "object_repr": "Заказ (33, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 108,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.221Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "32",
+      "object_repr": "Заказ (32, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 109,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.224Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "31",
+      "object_repr": "Заказ (31, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 110,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.227Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "30",
+      "object_repr": "Заказ (30, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 111,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.230Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "29",
+      "object_repr": "Заказ (29, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 112,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.233Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "28",
+      "object_repr": "Заказ (28, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 113,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.238Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "27",
+      "object_repr": "Заказ (27, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 114,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.242Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "26",
+      "object_repr": "Заказ (26, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 115,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.245Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "25",
+      "object_repr": "Заказ (25, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 116,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.248Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "24",
+      "object_repr": "Заказ (24, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 117,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.251Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "23",
+      "object_repr": "Заказ (23, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 118,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.255Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "22",
+      "object_repr": "Заказ (22, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 119,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.258Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "21",
+      "object_repr": "Заказ (21, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 120,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.261Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "20",
+      "object_repr": "Заказ (20, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 121,
+   "fields": {
+      "action_time": "2023-04-14T18:50:22.264Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "19",
+      "object_repr": "Заказ (19, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 122,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.247Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "30",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 123,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.253Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "29",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 124,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.259Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "28",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 125,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.263Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "27",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 126,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.266Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "26",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 127,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.270Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "25",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 128,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.273Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "24",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 129,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.276Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "23",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 130,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.278Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "22",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 131,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.282Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "21",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 132,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.285Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "20",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 133,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.288Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "19",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 134,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.291Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "18",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 135,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.293Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "17",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 136,
+   "fields": {
+      "action_time": "2023-04-14T18:50:43.297Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "16",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 137,
+   "fields": {
+      "action_time": "2023-04-14T18:51:58.263Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "31",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 138,
+   "fields": {
+      "action_time": "2023-04-14T18:51:58.269Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "30",
+      "object_repr": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 139,
+   "fields": {
+      "action_time": "2023-04-14T18:51:58.274Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "29",
+      "object_repr": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 140,
+   "fields": {
+      "action_time": "2023-04-14T19:20:31.985Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "39",
+      "object_repr": "Заказ (39, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 141,
+   "fields": {
+      "action_time": "2023-04-14T19:20:31.991Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "38",
+      "object_repr": "Заказ (38, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 142,
+   "fields": {
+      "action_time": "2023-04-14T19:20:31.996Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "37",
+      "object_repr": "Заказ (37, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 143,
+   "fields": {
+      "action_time": "2023-04-14T19:20:39.488Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "33",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 144,
+   "fields": {
+      "action_time": "2023-04-14T19:20:39.493Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "32",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 145,
+   "fields": {
+      "action_time": "2023-04-14T19:20:39.498Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "31",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 146,
+   "fields": {
+      "action_time": "2023-04-14T19:20:48.998Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "32",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 147,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.543Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "61",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 148,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.550Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "60",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 149,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.557Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "59",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 150,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.561Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "58",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 151,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.565Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "57",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 152,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.568Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "56",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 153,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.571Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "55",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 154,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.574Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "54",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 155,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.577Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "53",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 156,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.580Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "52",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 157,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.583Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "51",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 158,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.587Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "50",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 159,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.590Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "49",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 160,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.593Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "48",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 161,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.596Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "47",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 162,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.599Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "46",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 163,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.603Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "45",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 164,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.605Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "44",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 165,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.609Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "43",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 166,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.612Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "42",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 167,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.616Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "41",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 168,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.619Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "40",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 169,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.622Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "39",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 170,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.626Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "38",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 171,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.630Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "37",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 172,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.633Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "36",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 173,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.636Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "35",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 174,
+   "fields": {
+      "action_time": "2023-04-14T19:46:04.640Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "34",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 175,
+   "fields": {
+      "action_time": "2023-04-14T19:46:14.433Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "36",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 176,
+   "fields": {
+      "action_time": "2023-04-14T19:46:14.438Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "35",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 177,
+   "fields": {
+      "action_time": "2023-04-14T19:46:14.441Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "34",
+      "object_repr": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 178,
+   "fields": {
+      "action_time": "2023-04-14T19:46:14.444Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "33",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 179,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.545Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "53",
+      "object_repr": "Заказ (53, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 180,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.550Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "52",
+      "object_repr": "Заказ (52, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 181,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.554Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "51",
+      "object_repr": "Заказ (51, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 182,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.558Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "50",
+      "object_repr": "Заказ (50, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 183,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.562Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "49",
+      "object_repr": "Заказ (49, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 184,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.565Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "48",
+      "object_repr": "Заказ (48, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 185,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.568Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "47",
+      "object_repr": "Заказ (47, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 186,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.571Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "46",
+      "object_repr": "Заказ (46, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 187,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.574Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "45",
+      "object_repr": "Заказ (45, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 188,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.577Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "44",
+      "object_repr": "Заказ (44, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 189,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.580Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "43",
+      "object_repr": "Заказ (43, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 190,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.583Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "42",
+      "object_repr": "Заказ (42, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 191,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.586Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "41",
+      "object_repr": "Заказ (41, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 192,
+   "fields": {
+      "action_time": "2023-04-14T19:46:25.590Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "40",
+      "object_repr": "Заказ (40, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 193,
+   "fields": {
+      "action_time": "2023-04-14T19:47:18.933Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "54",
+      "object_repr": "Заказ (54, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 194,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.656Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "69",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 195,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.662Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "68",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 196,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.667Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "67",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 197,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.670Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "66",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 198,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.673Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "65",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 199,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.676Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "64",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 200,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.679Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "63",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 201,
+   "fields": {
+      "action_time": "2023-04-15T09:27:37.681Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "62",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 202,
+   "fields": {
+      "action_time": "2023-04-15T09:27:46.596Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "38",
+      "object_repr": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 203,
+   "fields": {
+      "action_time": "2023-04-15T09:27:46.601Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "37",
+      "object_repr": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 204,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.951Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "61",
+      "object_repr": "Заказ (61, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 205,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.957Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "60",
+      "object_repr": "Заказ (60, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 206,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.961Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "59",
+      "object_repr": "Заказ (59, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 207,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.965Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "58",
+      "object_repr": "Заказ (58, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 208,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.968Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "57",
+      "object_repr": "Заказ (57, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 209,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.971Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "56",
+      "object_repr": "Заказ (56, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 210,
+   "fields": {
+      "action_time": "2023-04-15T09:27:54.974Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "55",
+      "object_repr": "Заказ (55, 'Новый')",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add Пользователь",
+      "content_type": 7,
+      "codename": "add_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change Пользователь",
+      "content_type": 7,
+      "codename": "change_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete Пользователь",
+      "content_type": 7,
+      "codename": "delete_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view Пользователь",
+      "content_type": 7,
+      "codename": "view_subscriber"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add Заказ",
+      "content_type": 8,
+      "codename": "add_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change Заказ",
+      "content_type": 8,
+      "codename": "change_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete Заказ",
+      "content_type": 8,
+      "codename": "delete_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view Заказ",
+      "content_type": 8,
+      "codename": "view_order"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 33,
+   "fields": {
+      "name": "Can add Статус заказа",
+      "content_type": 9,
+      "codename": "add_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 34,
+   "fields": {
+      "name": "Can change Статус заказа",
+      "content_type": 9,
+      "codename": "change_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 35,
+   "fields": {
+      "name": "Can delete Статус заказа",
+      "content_type": 9,
+      "codename": "delete_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 36,
+   "fields": {
+      "name": "Can view Статус заказа",
+      "content_type": 9,
+      "codename": "view_status"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 37,
+   "fields": {
+      "name": "Can add Товар в заказе",
+      "content_type": 10,
+      "codename": "add_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 38,
+   "fields": {
+      "name": "Can change Товар в заказе",
+      "content_type": 10,
+      "codename": "change_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 39,
+   "fields": {
+      "name": "Can delete Товар в заказе",
+      "content_type": 10,
+      "codename": "delete_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 40,
+   "fields": {
+      "name": "Can view Товар в заказе",
+      "content_type": 10,
+      "codename": "view_productinorder"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 41,
+   "fields": {
+      "name": "Can add Товар",
+      "content_type": 11,
+      "codename": "add_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 42,
+   "fields": {
+      "name": "Can change Товар",
+      "content_type": 11,
+      "codename": "change_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 43,
+   "fields": {
+      "name": "Can delete Товар",
+      "content_type": 11,
+      "codename": "delete_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 44,
+   "fields": {
+      "name": "Can view Товар",
+      "content_type": 11,
+      "codename": "view_product"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 45,
+   "fields": {
+      "name": "Can add Фотография",
+      "content_type": 12,
+      "codename": "add_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 46,
+   "fields": {
+      "name": "Can change Фотография",
+      "content_type": 12,
+      "codename": "change_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 47,
+   "fields": {
+      "name": "Can delete Фотография",
+      "content_type": 12,
+      "codename": "delete_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 48,
+   "fields": {
+      "name": "Can view Фотография",
+      "content_type": 12,
+      "codename": "view_productimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 49,
+   "fields": {
+      "name": "Can add Категория товара",
+      "content_type": 13,
+      "codename": "add_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 50,
+   "fields": {
+      "name": "Can change Категория товара",
+      "content_type": 13,
+      "codename": "change_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 51,
+   "fields": {
+      "name": "Can delete Категория товара",
+      "content_type": 13,
+      "codename": "delete_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 52,
+   "fields": {
+      "name": "Can view Категория товара",
+      "content_type": 13,
+      "codename": "view_productcategory"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 53,
+   "fields": {
+      "name": "Can add Товар в корзине",
+      "content_type": 14,
+      "codename": "add_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 54,
+   "fields": {
+      "name": "Can change Товар в корзине",
+      "content_type": 14,
+      "codename": "change_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 55,
+   "fields": {
+      "name": "Can delete Товар в корзине",
+      "content_type": 14,
+      "codename": "delete_productinbasket"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 56,
+   "fields": {
+      "name": "Can view Товар в корзине",
+      "content_type": 14,
+      "codename": "view_productinbasket"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$390000$G7rLrr5TNbckN9bQL5Trak$zzPyYFsw2vuriqOZtYH8KflcpwZUqvj327cKi1DLIlo=",
+      "last_login": "2023-04-13T14:53:33.752Z",
+      "is_superuser": true,
+      "username": "Fox",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-03-30T12:18:44.692Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "293298429834",
+      "first_name": "test",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-14T10:25:53.424Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 3,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "13413413",
+      "first_name": "test",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-14T10:29:11.094Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 4,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "7987986",
+      "first_name": "test",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-14T11:12:25.533Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 5,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "121123",
+      "first_name": "test",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-14T11:26:56.157Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 6,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "134134134134",
+      "first_name": "test",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-14T19:22:42.249Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 7,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "1211233333",
+      "first_name": "testttt",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-14T20:30:03.840Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 8,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "3232223",
+      "first_name": "Гога",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-15T08:50:23.587Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 9,
+   "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "321123",
+      "first_name": "Актрисы",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-04-15T09:29:44.893Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "landing",
+      "model": "subscriber"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "orders",
+      "model": "order"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 9,
+   "fields": {
+      "app_label": "orders",
+      "model": "status"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 10,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinorder"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 11,
+   "fields": {
+      "app_label": "products",
+      "model": "product"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 12,
+   "fields": {
+      "app_label": "products",
+      "model": "productimage"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 13,
+   "fields": {
+      "app_label": "products",
+      "model": "productcategory"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 14,
+   "fields": {
+      "app_label": "orders",
+      "model": "productinbasket"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "2amtyfzne6xa0gzzacl535vp5vik62zm",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAURP-FtSHlURCX7v0Gch8gVQNJaVfGf7dNutBZzjkzbxFhXUpce5rjxOIilDj9dgj0THUH_IB6b5JaXeYJ5a7Ig3Z5a5xe18P9OyjQy7YemHHIJgCP2oM_G-M5AwVHgIayH7MNqLyz7Cgwaq1TdlsYU_LKKvH5AgTNOJ0:1pmyKL:oOPSDO7v7RkoqfZExUYUbebcdphyoPX-ss7GQYU1sl8",
+      "expire_date": "2023-04-27T14:53:33.756Z"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "eh6az8i5y5ieyftlt7j685hmbk3m2l4q",
+   "fields": {
+      "session_data": ".eJxVjMsOwiAURP-FtSHlURCX7v0Gch8gVQNJaVfGf7dNutBZzjkzbxFhXUpce5rjxOIilDj9dgj0THUH_IB6b5JaXeYJ5a7Ig3Z5a5xe18P9OyjQy7YemHHIJgCP2oM_G-M5AwVHgIayH7MNqLyz7Cgwaq1TdlsYU_LKKvH5AgTNOJ0:1phrFC:Gkoc2ooi-ooDN2CrTKLsfyJ9SBg9q4rv71JB7JBk8sc",
+      "expire_date": "2023-04-13T12:19:06.481Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 1,
+   "fields": {
+      "name": "Новый",
+      "is_activ": true,
+      "created": "2023-03-30T12:22:46.454Z",
+      "updated": "2023-03-30T12:22:46.454Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 2,
+   "fields": {
+      "name": "Отмена",
+      "is_activ": true,
+      "created": "2023-03-30T12:23:00.947Z",
+      "updated": "2023-03-30T12:23:00.947Z"
+   }
+},
+{
+   "model": "orders.status",
+   "pk": 3,
+   "fields": {
+      "name": "Выполнен",
+      "is_activ": true,
+      "created": "2023-03-30T12:23:19.907Z",
+      "updated": "2023-03-30T12:23:19.907Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 62,
+   "fields": {
+      "user": 8,
+      "total_price": "0.00",
+      "customer_name": "Гога",
+      "customer_email": null,
+      "customer_phone": "3232223",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2023-04-15T09:28:47.254Z",
+      "updated": "2023-04-15T09:28:47.254Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 63,
+   "fields": {
+      "user": 9,
+      "total_price": "146000.00",
+      "customer_name": "Актрисы",
+      "customer_email": null,
+      "customer_phone": "321123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2023-04-15T09:29:44.899Z",
+      "updated": "2023-04-15T09:29:44.923Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 64,
+   "fields": {
+      "user": 9,
+      "total_price": "146000.00",
+      "customer_name": "Актрисы",
+      "customer_email": null,
+      "customer_phone": "321123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2023-04-15T09:35:24.964Z",
+      "updated": "2023-04-15T09:35:24.998Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 65,
+   "fields": {
+      "user": 9,
+      "total_price": "146000.00",
+      "customer_name": "Актрисы",
+      "customer_email": null,
+      "customer_phone": "321123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2023-04-15T09:38:04.573Z",
+      "updated": "2023-04-15T09:38:04.601Z"
+   }
+},
+{
+   "model": "orders.order",
+   "pk": 66,
+   "fields": {
+      "user": 9,
+      "total_price": "146000.00",
+      "customer_name": "Актрисы",
+      "customer_email": null,
+      "customer_phone": "321123",
+      "customer_address": null,
+      "comments": null,
+      "status": 1,
+      "created": "2023-04-15T09:40:29.820Z",
+      "updated": "2023-04-15T09:40:29.849Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 70,
+   "fields": {
+      "order": 63,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "80000.00",
+      "total_price": "80000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:29:44.907Z",
+      "updated": "2023-04-15T09:29:44.907Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 71,
+   "fields": {
+      "order": 63,
+      "product": 5,
+      "nmb": 3,
+      "price_per_item": "22000.00",
+      "total_price": "66000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:29:44.920Z",
+      "updated": "2023-04-15T09:29:44.920Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 72,
+   "fields": {
+      "order": 64,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "80000.00",
+      "total_price": "80000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:35:24.979Z",
+      "updated": "2023-04-15T09:35:24.979Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 73,
+   "fields": {
+      "order": 64,
+      "product": 5,
+      "nmb": 3,
+      "price_per_item": "22000.00",
+      "total_price": "66000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:35:24.994Z",
+      "updated": "2023-04-15T09:35:24.994Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 74,
+   "fields": {
+      "order": 65,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "80000.00",
+      "total_price": "80000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:38:04.584Z",
+      "updated": "2023-04-15T09:38:04.584Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 75,
+   "fields": {
+      "order": 65,
+      "product": 5,
+      "nmb": 3,
+      "price_per_item": "22000.00",
+      "total_price": "66000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:38:04.598Z",
+      "updated": "2023-04-15T09:38:04.598Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 76,
+   "fields": {
+      "order": 66,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "80000.00",
+      "total_price": "80000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:40:29.832Z",
+      "updated": "2023-04-15T09:40:29.832Z"
+   }
+},
+{
+   "model": "orders.productinorder",
+   "pk": 77,
+   "fields": {
+      "order": 66,
+      "product": 5,
+      "nmb": 3,
+      "price_per_item": "22000.00",
+      "total_price": "66000.00",
+      "is_activ": true,
+      "created": "2023-04-15T09:40:29.846Z",
+      "updated": "2023-04-15T09:40:29.846Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 39,
+   "fields": {
+      "session_key": "2amtyfzne6xa0gzzacl535vp5vik62zm",
+      "order": 66,
+      "product": 3,
+      "nmb": 1,
+      "price_per_item": "80000.00",
+      "total_price": "80000.00",
+      "is_active": true,
+      "created": "2023-04-15T09:29:06.836Z",
+      "updated": "2023-04-15T09:40:29.827Z"
+   }
+},
+{
+   "model": "orders.productinbasket",
+   "pk": 40,
+   "fields": {
+      "session_key": "2amtyfzne6xa0gzzacl535vp5vik62zm",
+      "order": 66,
+      "product": 5,
+      "nmb": 3,
+      "price_per_item": "22000.00",
+      "total_price": "66000.00",
+      "is_active": true,
+      "created": "2023-04-15T09:29:17.298Z",
+      "updated": "2023-04-15T09:40:29.842Z"
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 1,
+   "fields": {
+      "name": "Телефоны",
+      "is_activ": true
+   }
+},
+{
+   "model": "products.productcategory",
+   "pk": 2,
+   "fields": {
+      "name": "Ноутбуки",
+      "is_activ": true
+   }
+},
+{
+   "model": "products.product",
+   "pk": 1,
+   "fields": {
+      "name": "17.3\" Ноутбук ARDOR GAMING NEO G17-I5ND203",
+      "price": "71000.00",
+      "discount": 1,
+      "category": 2,
+      "description": "Этот ноутбук создан для тех, кто хочет получить качественное и производительное компьютерное устройство с наиболее востребованным функционалом. Данная модель полностью удовлетворяет данные требования. Надежный накопитель предоставляет вам возможности для долговременного хранения необходимой виртуальной информации. Устройство оборудовано веб-камерой и микрофоном, благодаря которым вы сможете организовывать видеоконференции с партнерами по бизнесу и коллегами по работе.",
+      "short_description": null,
+      "is_activ": true,
+      "created": "2023-03-30T12:21:21.392Z",
+      "updated": "2023-04-01T16:45:23.310Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 2,
+   "fields": {
+      "name": "17.3\" Ноутбук MSI Katana GF76 12UC-265XRU",
+      "price": "73000.00",
+      "discount": 2,
+      "category": 2,
+      "description": "Ноутбук MSI Katana GF76 12UC-265XRU предлагает мощные характеристики, продуманную эргономику и высокую реалистичность изображения. Он разработан для поклонников компьютерных игр. Благодаря процессору Intel Core i5, 16 ГБ оперативной памяти стандарта DDR4 и видеокарте GeForce RTX 3050 ноутбук помогает добиться вычислительного потенциала для увлекательной игры. В качестве хранилища применяется быстрый накопитель SSD емкостью 512 ГБ. Система охлаждения с использованием двух вентиляторов и тепловых трубок способствует поддержанию невысокой температуры нагрева.\r\nНоутбук MSI Katana GF76 выполнен в прочном корпусе и оборудован эргономичной полноразмерной раскладкой с красной подсветкой. С боковых сторон расположены порты USB, видеовыход HDMI, сетевой разъем 1 Гбит/с. Акустическая система формирует чистый и насыщенный звук. Литий-ионный аккумулятор гарантирует длительное время автономности ноутбука – около 5.5 часов.",
+      "short_description": null,
+      "is_activ": true,
+      "created": "2023-03-30T18:20:25.763Z",
+      "updated": "2023-04-01T16:45:23.301Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 3,
+   "fields": {
+      "name": "16\" Ноутбук ASUS VivoBook S 16X M5602QA-L2117",
+      "price": "80000.00",
+      "discount": 3,
+      "category": 2,
+      "description": "Исследуйте возможности с великолепным ноутбуком Vivobook S 16X, сочетающим яркий стиль с высокой производительностью. Передовая конфигурация, в которую входит мобильный процессор AMD Ryzen 7 5800H, делает его отличным выбором для широкого спектра приложений, как рабочих, так и развлекательных. Дисплей с разрешением 2,5K и соотношением сторон 16:10 раскрывается на 180° и обладает сертификацией эргономичности TÜV Rheinland. В изящном корпусе устройства нашлось место для интерфейсов, включая пару портов USB 3.2 Gen2 Type-C с поддержкой внешних 4K-дисплеев. Vivobook S 16X – правильное решение для любых задач!",
+      "short_description": null,
+      "is_activ": true,
+      "created": "2023-03-31T13:12:41.765Z",
+      "updated": "2023-04-01T16:45:23.291Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 4,
+   "fields": {
+      "name": "16\" Ноутбук HUAWEI MateBook 16s CREF-X",
+      "price": "120000.00",
+      "discount": 5,
+      "category": 2,
+      "description": "Этот ноутбук создан для тех, кто хочет получить хорошее производительное компьютерное устройство с наиболее востребованным функционалом. Данная модель полностью удовлетворяет данные требования. Надежный накопитель предоставляет вам возможности для долговременного хранения необходимой виртуальной информации. Устройство оборудовано веб-камерой и микрофоном, благодаря которым вы сможете организовывать видеоконференции с партнерами по бизнесу и коллегами по работе.",
+      "short_description": "",
+      "is_activ": true,
+      "created": "2023-03-31T13:18:45.201Z",
+      "updated": "2023-04-01T16:44:25.710Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 5,
+   "fields": {
+      "name": "6.67\" Смартфон Xiaomi Redmi Note 10 Pro 128 ГБ",
+      "price": "22000.00",
+      "discount": 10,
+      "category": 1,
+      "description": "Смартфон Xiaomi Redmi Note 10 Pro в стеклянном корпусе объединил возможности топовых устройств, которыми останутся довольны самые прогрессивные блогеры и геймеры. Для этого в основу его работоспособности положен процессор Qualcomm Snapdragon 732G на 8 ядер, ускоритель Adreno 618 и сразу 8 ГБ оперативной памяти.\r\nЛюбите снимать тонны видео и фото? Не проблема, хранить их получится на 128 ГБ встроенной памяти устройства. Основная камера состоит из 4 модулей, а ее разрешение достигает показателя 108+8+5+2 Мп. Смартфон Xiaomi Redmi Note 10 Pro отлично держит заряд и быстро пополняет его ресурс в случае необходимости.",
+      "short_description": "",
+      "is_activ": true,
+      "created": "2023-04-01T15:44:56.392Z",
+      "updated": "2023-04-01T15:58:30.824Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 6,
+   "fields": {
+      "name": "6.6\" Смартфон Samsung Galaxy M33 128 ГБ",
+      "price": "25000.00",
+      "discount": 15,
+      "category": 1,
+      "description": "Смартфон Samsung Galaxy M33 128 ГБ станет надежным помощником для общения и повседневных мобильных развлечений. Аппаратная начинка с процессором Exynos 1280 производства Samsung и 8 ГБ системной памяти обеспечивает быстрое выполнение самых разных задач и плавность работы приложений. Дисплей PLS 6.6 дюйма позволяет получать удовольствие от четкой и красочной картинки.\r\nДанная модель Samsung Galaxy M33 оформлена в корпусе синего цвета. Камера 50+5+2+2 Мп с целым рядом технологий, функций и эффектов позволяет запечатлевать реалистичные фотографии и видео. Камера 8 Мп на фронтальной стороне предназначена для создания селфи и видеообщения. В мобильном устройстве реализованы два слота под установку карт SIM и востребованные беспроводные интерфейсы. За продолжительное время автономности смартфона отвечает аккумулятор 5000 мА*ч.",
+      "short_description": "",
+      "is_activ": true,
+      "created": "2023-04-01T15:47:53.293Z",
+      "updated": "2023-04-01T15:58:22.904Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 7,
+   "fields": {
+      "name": "6.78\" Смартфон HUAWEI nova 9 SE 128 ГБ",
+      "price": "22790.00",
+      "discount": 20,
+      "category": 1,
+      "description": "Смартфон HUAWEI nova 9 SE 128 ГБ отличается мощным вычислительным потенциалом и технологичностью. Данная модель полностью соответствует требованиям активных пользователей. В смартфоне установлен сенсорный дисплей 6.78 дюйма с безрамочным исполнением и матрицей IPS. Стеклянный корпус выделяется компактными размерами и привлекательным оформлением.\r\nВысокий уровень производительности системы обеспечивается благодаря процессору Snapdragon 680 и 8 ГБ оперативной памяти. Одной из примечательных особенностей HUAWEI nova 9 SE является камера с 4-мя сенсорами 108+8+2+2 Мп, которая позволяет создавать реалистичные фотографии и видео в любых условиях. Для селфи и общения предлагается камера 16 Мп. К преимуществам смартфона относятся функции защиты и аккумулятор 4000 мА*ч с технологией ускоренной зарядки.",
+      "short_description": "",
+      "is_activ": true,
+      "created": "2023-04-01T15:52:16.344Z",
+      "updated": "2023-04-01T15:58:14.905Z"
+   }
+},
+{
+   "model": "products.product",
+   "pk": 8,
+   "fields": {
+      "name": "6.7\" Смартфон Apple iPhone 14 Plus 128 ГБ",
+      "price": "80900.00",
+      "discount": 30,
+      "category": 1,
+      "description": "Apple iPhone 14 Plus базируются на однокристальной системе A15 Bionic. Используется версия с 5-ядерным GPU. Модель получила 6,7-дюймовую OLED-панель. Пиковая яркость — 1200 нит. Челка с датчиками системы лицевого сканирования и селфи-камерой сохранилась. Сама камера по-прежнему на 12 Мп, но способна захватить на 38 % больше света, чем у iPhone 13. Тыльная камера двойная — главный сенсор на 12 Мп и широкоугольный на 12 Мп. Из нововведений — режим Action mode с быстрой стабилизацией и поддержка технологии Photonic Engine (улучшает фотографии).",
+      "short_description": "",
+      "is_activ": true,
+      "created": "2023-04-01T15:57:49.825Z",
+      "updated": "2023-04-01T15:58:06.209Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 1,
+   "fields": {
+      "product": 1,
+      "image": "products_img/k.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-03-30T12:21:21.395Z",
+      "updated": "2023-03-30T12:21:21.395Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 2,
+   "fields": {
+      "product": 1,
+      "image": "products_img/k1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-30T12:21:21.397Z",
+      "updated": "2023-03-31T17:49:23.504Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 3,
+   "fields": {
+      "product": 1,
+      "image": "products_img/k2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-30T12:21:21.399Z",
+      "updated": "2023-03-31T17:49:23.497Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 4,
+   "fields": {
+      "product": 2,
+      "image": "products_img/s.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-03-30T18:23:26.382Z",
+      "updated": "2023-03-30T18:23:26.382Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 5,
+   "fields": {
+      "product": 2,
+      "image": "products_img/s1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-30T18:23:26.384Z",
+      "updated": "2023-03-31T17:49:23.490Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 6,
+   "fields": {
+      "product": 2,
+      "image": "products_img/s2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-30T18:23:26.386Z",
+      "updated": "2023-03-31T17:49:23.482Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 7,
+   "fields": {
+      "product": 3,
+      "image": "products_img/a.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-03-31T13:12:41.774Z",
+      "updated": "2023-03-31T13:12:41.774Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 8,
+   "fields": {
+      "product": 3,
+      "image": "products_img/a1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-31T13:12:41.777Z",
+      "updated": "2023-03-31T17:49:23.476Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 9,
+   "fields": {
+      "product": 3,
+      "image": "products_img/a2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-31T13:12:41.779Z",
+      "updated": "2023-03-31T17:49:23.468Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 10,
+   "fields": {
+      "product": 4,
+      "image": "products_img/t.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-03-31T13:18:45.207Z",
+      "updated": "2023-03-31T13:18:45.207Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 11,
+   "fields": {
+      "product": 4,
+      "image": "products_img/t1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-31T13:18:45.210Z",
+      "updated": "2023-03-31T17:49:23.461Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 12,
+   "fields": {
+      "product": 4,
+      "image": "products_img/t2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-03-31T13:18:45.211Z",
+      "updated": "2023-03-31T17:49:23.451Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 13,
+   "fields": {
+      "product": 5,
+      "image": "products_img/sm.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-04-01T15:44:56.396Z",
+      "updated": "2023-04-01T15:58:30.825Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 14,
+   "fields": {
+      "product": 5,
+      "image": "products_img/sm1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:44:56.398Z",
+      "updated": "2023-04-01T15:44:56.398Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 15,
+   "fields": {
+      "product": 5,
+      "image": "products_img/sm2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:44:56.399Z",
+      "updated": "2023-04-01T15:44:56.399Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 16,
+   "fields": {
+      "product": 6,
+      "image": "products_img/ss.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-04-01T15:47:53.295Z",
+      "updated": "2023-04-01T15:58:22.906Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 17,
+   "fields": {
+      "product": 6,
+      "image": "products_img/ss1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:47:53.298Z",
+      "updated": "2023-04-01T15:47:53.298Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 18,
+   "fields": {
+      "product": 6,
+      "image": "products_img/ss2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:47:53.300Z",
+      "updated": "2023-04-01T15:47:53.300Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 19,
+   "fields": {
+      "product": 7,
+      "image": "products_img/sh.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-04-01T15:52:16.347Z",
+      "updated": "2023-04-01T15:58:14.907Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 20,
+   "fields": {
+      "product": 7,
+      "image": "products_img/sh1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:52:16.349Z",
+      "updated": "2023-04-01T15:52:16.349Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 21,
+   "fields": {
+      "product": 7,
+      "image": "products_img/sh2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:52:16.352Z",
+      "updated": "2023-04-01T15:52:16.352Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 22,
+   "fields": {
+      "product": 8,
+      "image": "products_img/sa.jpg",
+      "is_main": true,
+      "is_activ": true,
+      "created": "2023-04-01T15:57:49.829Z",
+      "updated": "2023-04-01T15:58:06.211Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 23,
+   "fields": {
+      "product": 8,
+      "image": "products_img/sa1.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:57:49.831Z",
+      "updated": "2023-04-01T15:57:49.831Z"
+   }
+},
+{
+   "model": "products.productimage",
+   "pk": 24,
+   "fields": {
+      "product": 8,
+      "image": "products_img/sa2.jpg",
+      "is_main": false,
+      "is_activ": true,
+      "created": "2023-04-01T15:57:49.833Z",
+      "updated": "2023-04-01T15:57:49.833Z"
+   }
+}
+]

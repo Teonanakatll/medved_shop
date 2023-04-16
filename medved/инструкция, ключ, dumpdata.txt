@@ -22,3 +22,6 @@ elif [ "$SSH_AUTH_SOCK" ] && [ $agent_run_state = 1 ]; then
 fi
 
 unset env
+
+при копировании дб решает ошибку
+python -Xutf8 manage.py dumpdata --indent=3 > initial_data.json
