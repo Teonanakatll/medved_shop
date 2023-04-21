@@ -1,6 +1,6 @@
 from .models import ProductInBasket
 
-
+# Данные выводим в navbar
 def getting_basket_info(request):
     """ Формирует список товаров для отображения в корзине. """
     session_key = request.session.session_key

@@ -13,6 +13,8 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
+import ckeditor_uploader
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
@@ -37,9 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
     'landing.apps.LandingConfig',
     'orders.apps.OrdersConfig',
     'products.apps.ProductsConfig',
+    'management_area.apps.ManagementAreaConfig',
+
+    'ckeditor',
+    'ckeditor_uploader',
+
 ]
 
 MIDDLEWARE = [
@@ -67,6 +75,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
 
                 'orders.context_processors.getting_basket_info',
+                'management_area.context_processors.getting_privacy_policy',
             ],
         },
     },
@@ -124,7 +133,7 @@ STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 STATICFILES_DIRS = []
 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
 
 # Default primary key field type
@@ -132,7 +141,125 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-try:
-    from .settings_prod import *
-except:
-    pass
+#                                             CKEDITOR : https://github.com/django-ckeditor/django-ckeditor
+# https://django--ckeditor-readthedocs-io.translate.goog/en/latest/?_x_tr_sl=en&_x_tr_tl=ru&_x_tr_hl=ru&_x_tr_pto=sc
+# https://www.youtube.com/watch?v=fMZBTCRGMS8
+
+# https://kisameev.ru/javascript/nastroyka-ckeditor-pod-sebya---podklyuchenie-plaginov
+
+# Путь для файлов загруженных через ckeditor
+CKEDITOR_UPLOAD_PATH = 'uploads/'
+
+# Это позволяет группировать изображения по каталогу, в котором они хранятся, сортируя их по дате.
+CKEDITOR_BROWSE_SHOW_DIRS = True
+
+# группировки загруженных файлов по годам/месяцам/дням.
+CKEDITOR_RESTRICT_BY_DATE = False
+
+# Установить пользовательское хранилище файлов для загрузчика CKEditor
+# CKEDITOR_STORAGE_BACKEND =
+
+# Вы можете установить CKEDITOR_IMAGE_BACKENDодин из поддерживаемых бэкендов, чтобы включить миниатюры в
+# галерее ckeditor. По умолчанию миниатюры не создаются, а для предварительного просмотра используются
+# полноразмерные изображения. Поддерживаемые серверные части:
+
+# С помощью PillowBackendбэкэнда вы можете изменить размер миниатюры с помощью CKEDITOR_THUMBNAIL_SIZE
+# настройки (ранее THUMBNAIL_SIZE). Значение по умолчанию: (75, 75)
+# CKEDITOR_THUMBNAIL_SIZE = (100, 100)
+
+CKEDITOR_CONFIGS = {
+    'one': {
+        'toolbar': 'Basic',
+    },
+
+    'two': {
+        'toolbar': 'full',
+        'height': 300,
+        'width': 300,
+    },
+
+    'three': {
+        'toolbar': 'Custom',
+        'toolbar_Custom': [
+            ['Bold', 'Italic', 'Underline'],
+            ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock'],
+            ['Link', 'Unlink'],
+            ['RemoveFormat', 'Source']
+        ]
+    },
+
+    'default': {
+        'skin': 'moono',
+        # 'skin': 'office2013',
+        'toolbar_Basic': [
+            ['Source', '-', 'Bold', 'Italic']
+        ],
+        'toolbar_YourCustomToolbarConfig': [
+            {'name': 'document', 'items': ['Source', '-', 'Save', 'NewPage', 'Preview', 'Print', '-', 'Templates']},
+            {'name': 'clipboard', 'items': ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo']},
+            {'name': 'editing', 'items': ['Find', 'Replace', '-', 'SelectAll']},
+            {'name': 'forms',
+             'items': ['Form', 'Checkbox', 'Radio', 'TextField', 'Textarea', 'Select', 'Button', 'ImageButton',
+                       'HiddenField']},
+            '/',
+            {'name': 'basicstyles',
+             'items': ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat']},
+            {'name': 'paragraph',
+             'items': ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-',
+                       'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'BidiLtr', 'BidiRtl',
+                       'Language']},
+            {'name': 'links', 'items': ['Link', 'Unlink', 'Anchor']},
+            {'name': 'insert',
+             'items': ['Image', 'Flash', 'Table', 'HorizontalRule', 'Smiley', 'SpecialChar', 'PageBreak', 'Iframe']},
+            '/',
+            {'name': 'styles', 'items': ['Styles', 'Format', 'Font', 'FontSize']},
+            {'name': 'colors', 'items': ['TextColor', 'BGColor']},
+            {'name': 'tools', 'items': ['Maximize', 'ShowBlocks']},
+            {'name': 'about', 'items': ['About']},
+            '/',  # put this to force next toolbar on new line
+            {'name': 'yourcustomtools', 'items': [
+                # put the name of your editor.ui.addButton here
+                'Preview',
+                'Maximize',
+
+                # Вывадим плагин в панели инструментов
+                'youtube',
+
+            ]},
+        ],
+        'toolbar': 'YourCustomToolbarConfig',  # put selected toolbar config here
+        # 'toolbarGroups': [{ 'name': 'document', 'groups': [ 'mode', 'document', 'doctools' ] }],
+        # 'height': 291,
+        # 'width': '100%',
+        # 'filebrowserWindowHeight': 725,
+        # 'filebrowserWindowWidth': 940,
+        # 'toolbarCanCollapse': True,
+        # 'mathJaxLib': '//cdn.mathjax.org/mathjax/2.2-latest/MathJax.js?config=TeX-AMS_HTML',
+        'tabSpaces': 4,
+        'extraPlugins': ','.join([
+            'uploadimage', # the upload image feature
+            # your extra plugins here
+            'div',
+            'autolink',
+            'autoembed',
+            'embedsemantic',
+            'autogrow',
+            # 'devtools',
+            'widget',
+            'lineutils',
+            'clipboard',
+            'dialog',
+            'dialogui',
+            'elementspath',
+
+            # Добавляем плагин в инструменты
+            # 'youtube',
+        ]),
+    },
+
+}
+
+# try:
+#     from .settings_prod import *
+# except:
+#     pass
