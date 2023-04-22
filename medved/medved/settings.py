@@ -151,7 +151,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CKEDITOR_UPLOAD_PATH = 'uploads/'
 
 # Это позволяет группировать изображения по каталогу, в котором они хранятся, сортируя их по дате.
-CKEDITOR_BROWSE_SHOW_DIRS = True
+# CKEDITOR_BROWSE_SHOW_DIRS = True
 
 # группировки загруженных файлов по годам/месяцам/дням.
 CKEDITOR_RESTRICT_BY_DATE = False
@@ -221,9 +221,8 @@ CKEDITOR_CONFIGS = {
                 # put the name of your editor.ui.addButton here
                 'Preview',
                 'Maximize',
+                'Youtube'
 
-                # Вывадим плагин в панели инструментов
-                'youtube',
 
             ]},
         ],
@@ -251,9 +250,8 @@ CKEDITOR_CONFIGS = {
             'dialog',
             'dialogui',
             'elementspath',
+            'youtube'
 
-            # Добавляем плагин в инструменты
-            # 'youtube',
         ]),
     },
 
