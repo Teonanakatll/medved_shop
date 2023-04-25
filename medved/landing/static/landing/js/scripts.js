@@ -173,4 +173,13 @@ $(document).ready(function(){
 
     calculatingBasketAmount();
 
+    $(document).ready(function () {
+        $('#orders_table').DataTable(
+            {
+                "order": [[0, "asc"]],
+                "pageLength": 10,
+            }
+        );
+    });
+
 });

@@ -85,3 +85,7 @@ html, body {
 .form-errors {
     color: red;
 }
+.navbar-bottom {
+    height: 40px;
+    background-color: green;
+}

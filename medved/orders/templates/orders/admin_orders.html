@@ -1,0 +1,64 @@
+{% extends 'landing/base.html' %}
+{% load static %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h3>Заказы</h3>
+        <table id="orders_table" class="display" style="width:100%">
+          <thead>
+            <tr>
+              <th>
+                ID заказа
+              </th>
+              <th>
+                Имя
+              </th>
+              <th>
+                Телефон
+              </th>
+              <th>
+                Количество Товаров
+              </th>
+              <th>
+                Товары в заказе
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in orders %}
+            <tr>
+              <td>{{ item.id }}</td>
+              <td>{{ item.customer_name }}</td>
+              <td>{{ item.customer_phone }}</td>
+              <td>{{ item.products_nmb }}</td>
+              <td>
+                <ol>
+                  {% for product in item.products %}
+                  <li>
+                    {{ product.product_name }} {{ product.nmb }}шт. по {{ product.price_per_item }}
+                    = {{ product.total_price }}
+                  </li>
+                  {% endfor %}
+                </ol>
+              </td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block js_stuff %}
+<!--  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">-->
+<!--  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>-->
+
+<!--https://datatables.net/-->
+
+<!--Если нужно обрабатывать большие обьемы данных (более 300 записей), необходимо использовать-->
+<!--Server-side processing - для выполнения операций на стороне сервера-->
+
+{% endblock js_stuff %}

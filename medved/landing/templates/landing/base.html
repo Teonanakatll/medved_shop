@@ -14,8 +14,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 
-
   <link rel="stylesheet" href="{% static 'landing/css/style.css' %}">
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+
   <script src="{% static 'landing/js/dev.jQuery-3x.js' %}"></script>
 
   <title>Medved-Shop</title>
@@ -36,10 +37,12 @@
     </div>
   </div>
     {% include 'landing/footer.html' %}
-
+    <div class="text-center">
     {% include 'landing/modal_windows/privacy_policy.html' %}
-
+    </div>
   <script src="{% static 'landing/js/bootstrap.bundle.min.js' %}"></script>
 
   <script src="{% static 'landing/js/scripts.js' %}"></script>
+<!--  dataTables-->
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
 </body>
