@@ -33,6 +33,17 @@
                   <span class="form-errors">{{ form.phone.errors }}</span>
                 </div>
               </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label>Имейл: </label>
+                  <!--  name - устанавливаем как название поля формы  -->
+                  <!--  Значением поля устанавливаем данные полученные из post-запросса  -->
+                  <input type="text" name="{{ form.email.html_name }}" class="form-control"
+                    value="{{ request.POST.email }}"
+                  >
+                  <span class="form-errors">{{ form.name.errors }}</span>
+                </div>
+              </div>
             </div>
             <!--  Создаём таблицу  -->
             <table class="table text-center">

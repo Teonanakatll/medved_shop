@@ -1,6 +1,8 @@
 from django.db.models import Count
-from django.http import JsonResponse
+from django.http import JsonResponse, HttpResponseRedirect
 from django.shortcuts import render
+
+from utils.emails import SendingEmail
 from .models import ProductInBasket, ProductInOrder, Order
 from .forms import CheckoutContactForm
 from django.contrib.auth.models import User
@@ -68,12 +70,14 @@ def checkout(request):
             data = request.POST
             # Если поле пустое чтоб не было исключения пишем через get()
             name = data.get("name", "one")  # "one" - любое значение по умолчанию
-            phone = data["phone"]
+            phone = data.get("phone")
+            email = data.get("email")
             # Выбираем или создаём юзера, устанавливаем телефон как имя юзера
-            user, created = User.objects.get_or_create(username=phone, defaults={"first_name": name})
+            user, created = User.objects.get_or_create(username=phone, defaults={"first_name": name, "email": email})
 
             # Создаём заказ с данными юзера, устанавливаем статус
-            order = Order.objects.create(user=user, customer_name=name, customer_phone=phone, status_id=1)
+            order = Order.objects.create(user=user, customer_name=name, customer_phone=phone,
+                                         customer_email=email, status_id=1)
             # Считываем товары из POST запроса
             for name, value in data.items():
                 # Если имя элемента словаря начинается с ("...")
@@ -97,6 +101,14 @@ def checkout(request):
                                                   total_price=product_in_basket.total_price,
                                                   order=order)
 
+            # Отправка эмейла, создаётся экземпляр класса отправки
+            email = SendingEmail()
+            email.sending_email(type_id=1, order=order)
+            email.sending_email(type_id=2, email=order.customer_email, order=order)
+
+            # Заголовок запроса Referer содержит URL исходной страницы, с которой был осуществлён переход на текущую
+            # страницу. Заголовок Referer позволяет серверу узнать откуда был осуществлён переход на запрашиваемую страницу.
+            return HttpResponseRedirect(request.META['HTTP_REFERER'])
         else:
             print("no")
     return render(request, 'orders/checkout.html', locals())

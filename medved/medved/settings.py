@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'orders.apps.OrdersConfig',
     'products.apps.ProductsConfig',
     'management_area.apps.ManagementAreaConfig',
+    'emails.apps.EmailsConfig',
 
     'ckeditor',
     'ckeditor_uploader',
@@ -256,6 +257,32 @@ CKEDITOR_CONFIGS = {
     },
 
 }
+
+# Emails settings
+# Разрешить доступ к почтовому ящику с помощью почтовых клиентов
+# С сервера imap.yandex.ru по протоколу IMAP
+# Способ авторизации по IMAP
+# Пароли приложений и OAuth-токены
+EMAIL_HOST = 'smtp.yandex.ru'
+EMAIL_PORT = 465
+EMAIL_USE_TSL = False
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'gtabasyan@yandex.ru'
+EMAIL_HOST_PASSWORD = 'jgdfojbznocimsub'
+# EMAIL_PASSWORD = 'gur1tabasyan'
+
+# Емейл отправителя, будет подставляться в поле атправителя
+FROM_EMAIL = "gtabasyan@yandex.ru"
+# Емуйл администратора, для отправки администратору
+EMAIL_ADMIN = "difiser228@pixiil.com"
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+# Для вывода имейлов в консоль
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# Сервис временной электронной почты
+# https://temp-mail.org/ru/
 
 # try:
 #     from .settings_prod import *
