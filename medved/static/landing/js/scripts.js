@@ -171,15 +171,4 @@ $(document).ready(function(){
         calculatingBasketAmount();
     });
 
-    calculatingBasketAmount();
-
-    $(document).ready(function () {
-        $('#orders_table').DataTable(
-            {
-                "order": [[0, "asc"]],
-                "pageLength": 10,
-            }
-        );
-    });
-
 });
